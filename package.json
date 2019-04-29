@@ -4,16 +4,18 @@
   "description": "combines team components",
   "main": "./server.js",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "webpack": "^4.30.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server.js"
+    "start": "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
