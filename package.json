@@ -4,10 +4,10 @@
   "description": "combines team components",
   "main": "./server.js",
   "dependencies": {
+    "artillery": "^1.6.0-28",
     "axios": "^0.18.0",
-    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "morgan": "^1.9.1",
+    "newrelic": "^5.7.0",
     "path": "^0.12.7",
     "webpack": "^4.30.0"
   },
