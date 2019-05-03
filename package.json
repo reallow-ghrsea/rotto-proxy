@@ -12,10 +12,10 @@
     "webpack": "^4.30.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+
   },
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "node ./server.js"
   },
   "repository": {
     "type": "git",
